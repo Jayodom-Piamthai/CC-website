@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './App.css';
-import Home from './pages/ContactList';
+import ContactList from './pages/ContactList';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
 import{
     createBrowserRouter,
     RouterProvider,
@@ -11,8 +13,16 @@ import{
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />
+        element: <Home/>
     },
+    {
+        path: "/Contact",
+        element: <Contact/>
+    },
+    {
+        path: "/ContactList",
+        element: <ContactList />
+    }
 
 ]);
 
