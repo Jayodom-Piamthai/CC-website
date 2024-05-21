@@ -4,14 +4,15 @@ import Footer from "./footer"
 function Template (props){
     return(
         <>
-            <div class="wrapper">
+            <div className="wrapper">
                 <Navbar/>
-                <Footer/>
-                <div class="content-wrapper pt-3">
-                    <section class="content">
+                
+                <div className="content-wrapper pt-3">
+                    <section className="content">
                         {props.children}
                     </section>
                 </div>
+                <Footer/>
             </div>
         </>
     )
