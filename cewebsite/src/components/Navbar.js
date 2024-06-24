@@ -10,7 +10,7 @@ function Navbar() {
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="#">ACTIVITY & INFORMATION</a></li>
                             <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="#">VISION</a></li>
-                            <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="#">APPLYING</a></li>
+                            <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="applying">APPLYING</a></li>
                             <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="#">ACCOMPLISHMENT</a></li>
                             <li><a className="dropdown-item text-center" style={{ fontSize: "24px" }} href="#">CONTACT</a></li>
                         </ul>
