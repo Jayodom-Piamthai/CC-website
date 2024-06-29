@@ -1,5 +1,5 @@
 import Template from "../components/Template";
-
+import applyTest from "../components/applyFormTest";
 function Home() {
     return(
         <>
@@ -7,6 +7,9 @@ function Home() {
                 this is for
                 APPLYINGGGGGGGG!!!!
             </Template>
+            <applyTest>
+                
+            </applyTest>
         </>
     )
 }

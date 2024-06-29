@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './App.css';
+
+//database
+import Pool from './db'
 //pages importing
 import ContactList from './pages/ContactList';
 import Contact from './pages/Contact';
